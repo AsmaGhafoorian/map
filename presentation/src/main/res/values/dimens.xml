@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Toolbar-->
+    <dimen name="new_request_text_size">14dp</dimen>
+    <dimen name="toolbar_inset">10dp</dimen>
+    <dimen name="toolbar_search_size">12dp</dimen>
+
+    <!--login-->
+    <dimen name="login_logo_size">120dp</dimen>
+    <dimen name="login_margin">10dp</dimen>
+
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+
+    <dimen name="height_30">30dp</dimen>
+    <dimen name="height_45">45dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+
+</resources>

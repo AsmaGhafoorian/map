@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--Web Service-->
+    <string name="time_out">عدم برقراری ارتباط با سرور</string>
+    <string name="no_connection">عدم اتصال به اینترنت</string>
+    <string name="server_error">خطای سرور</string>
+    <string name="server_disconnect">عدم برقراری ارتباط با سرور</string>
+
+    <!--login-->
+    <string name="register_title">ثبت نام</string>
+    <string name="enter_info">لطفا اطلاعات خود را وارد کنید</string>
+    <string name="name">نام</string>
+    <string name="family">نام خانوادگی</string>
+    <string name="mobile">تلفن همراه</string>
+    <string name="phone">تلفن ثابت</string>
+    <string name="address">آدرس دقیق</string>
+    <string name="sextual">جنسیت</string>
+    <string name="male">آقا</string>
+    <string name="femal">خانم</string>
+    <string name="next">مرحله بعد</string>
+
+    <string name="enter_name">لطفا نام خود را وارد کنید</string>
+    <string name="enter_family">لطفا نام خانوادگی خود را وارد کنید</string>
+    <string name="enter_mobile">لطفا تلفن همراه خود را وارد کنید</string>
+    <string name="wrong_mobile">تلفن همراه اشتباه وارد شده است</string>
+    <string name="enter_phone">لطفا تلفن ثابت خود را وارد کنید</string>
+    <string name="enter_address">لطفا آدرس خود را وارد کنید</string>
+
+    <string name="confirm_location">تایید موقعیت</string>
+    <string name="location_error">موقعیت شناسایی نشد</string>
+    <string name="location">موقعیت روی نقشه</string>
+    <string name="find_location">موقعیت خود را روی نقشه مشخص کنید.</string>
+    <string name="address_title">مشخصات آدرس</string>
+
+
+
+</resources>

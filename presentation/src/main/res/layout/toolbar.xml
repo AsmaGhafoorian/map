@@ -1,0 +1,72 @@
+
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="top"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:background="@color/white"
+    app:contentInsetEnd="@dimen/toolbar_inset"
+    app:contentInsetStart="@dimen/toolbar_inset">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        local:layout_constraintEnd_toEndOf="parent"
+        local:layout_constraintTop_toTopOf="parent"
+        local:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"
+    />
+
+    <TextView
+        android:id="@+id/registerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_title"
+        android:fontFamily="@font/iranyekan_mobile_regular"
+        local:layout_constraintStart_toStartOf="parent"
+        local:layout_constraintTop_toTopOf="parent"
+        local:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16"
+        android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/locationTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:fontFamily="@font/iranyekan_mobile_regular"
+            local:layout_constraintStart_toStartOf="parent"
+            local:layout_constraintTop_toTopOf="parent"
+            local:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/addressTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address_title"
+            android:fontFamily="@font/iranyekan_mobile_regular"
+            local:layout_constraintStart_toStartOf="parent"
+            local:layout_constraintTop_toTopOf="parent"
+            local:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16"
+            android:visibility="gone"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.Toolbar>

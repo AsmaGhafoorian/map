@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/tools" android:ignore="NamespaceTypo">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/gray1</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+
+
+</resources>
